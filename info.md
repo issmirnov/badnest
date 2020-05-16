@@ -33,7 +33,7 @@ two-character country code, and it should work.
 Google recently introduced reCAPTCHA when logging to Nest. That means username
 and password cannot be used directly any more. Instead, you have to obtain
 `user_id` and `access_token` for your account by logging in manually. To do that,
-open developer tools in your browser, switch to the "Network" tab, log in to Nest
+open developer tools in your browser, switch to the "Network" tab, [log in](https://home.nest.com/) to Nest
 and look for the request similar to `https://home.nest.com/session?_=1578693398448`.
 You will find `user_id` and `access_token` in the response to the request.
 
